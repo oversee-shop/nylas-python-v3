@@ -7,7 +7,7 @@ from setuptools import setup, find_packages, Command
 
 
 VERSION = ""
-with open("nylas/_client_sdk_version.py", "r") as fd:
+with open("nylas_v3/_client_sdk_version.py", "r") as fd:
     VERSION = re.search(
         r'^__VERSION__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
     ).group(1)
