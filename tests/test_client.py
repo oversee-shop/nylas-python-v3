@@ -1,17 +1,17 @@
-from nylas import Client
-from nylas.resources.applications import Applications
-from nylas.resources.attachments import Attachments
-from nylas.resources.auth import Auth
-from nylas.resources.calendars import Calendars
-from nylas.resources.connectors import Connectors
-from nylas.resources.contacts import Contacts
-from nylas.resources.drafts import Drafts
-from nylas.resources.events import Events
-from nylas.resources.folders import Folders
-from nylas.resources.grants import Grants
-from nylas.resources.messages import Messages
-from nylas.resources.threads import Threads
-from nylas.resources.webhooks import Webhooks
+from nylas_v3 import Client
+from nylas_v3.resources.applications import Applications
+from nylas_v3.resources.attachments import Attachments
+from nylas_v3.resources.auth import Auth
+from nylas_v3.resources.calendars import Calendars
+from nylas_v3.resources.connectors import Connectors
+from nylas_v3.resources.contacts import Contacts
+from nylas_v3.resources.drafts import Drafts
+from nylas_v3.resources.events import Events
+from nylas_v3.resources.folders import Folders
+from nylas_v3.resources.grants import Grants
+from nylas_v3.resources.messages import Messages
+from nylas_v3.resources.threads import Threads
+from nylas_v3.resources.webhooks import Webhooks
 
 
 class TestClient:

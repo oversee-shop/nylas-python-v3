@@ -1,5 +1,5 @@
-from nylas.models.smart_compose import ComposeMessageResponse
-from nylas.resources.smart_compose import SmartCompose
+from nylas_v3.models.smart_compose import ComposeMessageResponse
+from nylas_v3.resources.smart_compose import SmartCompose
 
 
 class TestSmartCompose:

@@ -1,7 +1,7 @@
 from unittest.mock import patch, Mock
 
-from nylas.models.drafts import Draft
-from nylas.resources.drafts import Drafts
+from nylas_v3.models.drafts import Draft
+from nylas_v3.resources.drafts import Drafts
 
 
 class TestDraft:

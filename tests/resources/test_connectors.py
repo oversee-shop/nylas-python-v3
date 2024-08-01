@@ -1,6 +1,6 @@
-from nylas.models.connectors import Connector
-from nylas.resources.connectors import Connectors
-from nylas.resources.credentials import Credentials
+from nylas_v3.models.connectors import Connector
+from nylas_v3.resources.connectors import Connectors
+from nylas_v3.resources.credentials import Credentials
 
 
 class TestConnectors:
