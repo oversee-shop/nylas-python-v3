@@ -1,14 +1,14 @@
 from unittest import mock
 from unittest.mock import Mock, patch
 
-from nylas.models.auth import (
+from nylas_v3.models.auth import (
     CodeExchangeResponse,
     TokenInfoResponse,
     ProviderDetectResponse,
 )
-from nylas.models.grants import Grant
+from nylas_v3.models.grants import Grant
 
-from nylas.resources.auth import (
+from nylas_v3.resources.auth import (
     _hash_pkce_secret,
     _build_query,
     _build_query_with_pkce,

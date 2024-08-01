@@ -1,6 +1,6 @@
 from unittest.mock import patch, mock_open
 
-from nylas.utils.file_utils import attach_file_request_builder, _build_form_request
+from nylas_v3.utils.file_utils import attach_file_request_builder, _build_form_request
 
 
 class TestFileUtils:

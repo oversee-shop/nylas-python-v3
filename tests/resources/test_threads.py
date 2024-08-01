@@ -1,8 +1,8 @@
-from nylas.models.attachments import Attachment
-from nylas.models.events import EmailName
-from nylas.resources.threads import Threads
+from nylas_v3.models.attachments import Attachment
+from nylas_v3.models.events import EmailName
+from nylas_v3.resources.threads import Threads
 
-from nylas.models.threads import Thread
+from nylas_v3.models.threads import Thread
 
 
 class TestThread:

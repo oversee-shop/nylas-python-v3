@@ -1,8 +1,8 @@
 from unittest.mock import patch, Mock
 
-from nylas.models.messages import Message
-from nylas.resources.messages import Messages
-from nylas.resources.smart_compose import SmartCompose
+from nylas_v3.models.messages import Message
+from nylas_v3.resources.messages import Messages
+from nylas_v3.resources.smart_compose import SmartCompose
 
 
 class TestMessage:
