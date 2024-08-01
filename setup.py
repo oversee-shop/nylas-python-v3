@@ -106,7 +106,7 @@ def main():
             sys.exit()
 
     setup(
-        name="nylas",
+        name="nylas_v3",
         version=VERSION,
         python_requires=">=3.8",
         packages=find_packages(),
@@ -124,7 +124,7 @@ def main():
         description="Python bindings for the Nylas API platform.",
         license="MIT",
         keywords="inbox app appserver email nylas contacts calendar",
-        url="https://github.com/nylas/nylas-python",
+        url="https://github.com/oversee-shop/nylas-python-v3",
         long_description_content_type="text/markdown",
         long_description=README,
     )
