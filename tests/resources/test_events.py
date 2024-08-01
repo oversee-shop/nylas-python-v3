@@ -1,6 +1,6 @@
-from nylas.resources.events import Events
+from nylas_v3.resources.events import Events
 
-from nylas.models.events import Event
+from nylas_v3.models.events import Event
 
 
 class TestEvent:

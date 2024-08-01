@@ -2,11 +2,11 @@ from unittest.mock import patch, Mock
 
 import pytest
 import requests
-from nylas.models.response import Response, ListResponse
+from nylas_v3.models.response import Response, ListResponse
 
-from nylas.handler.http_client import HttpClient
+from nylas_v3.handler.http_client import HttpClient
 
-from nylas import Client
+from nylas_v3 import Client
 
 
 @pytest.fixture

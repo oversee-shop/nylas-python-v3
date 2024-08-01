@@ -1,6 +1,6 @@
-from nylas.resources.redirect_uris import RedirectUris
+from nylas_v3.resources.redirect_uris import RedirectUris
 
-from nylas.models.redirect_uri import RedirectUri
+from nylas_v3.models.redirect_uri import RedirectUri
 
 
 class TestRedirectUri:
